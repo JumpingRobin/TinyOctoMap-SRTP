@@ -333,4 +333,3 @@ uint16_t huffmanDecode(uint8_t *data, uint16_t dataLength, HuffmanTree *tree, ui
 
     return newDataTop;
 }
-

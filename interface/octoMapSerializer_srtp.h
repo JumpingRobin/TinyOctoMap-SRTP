@@ -8,7 +8,7 @@
 
 #define INF 0x3f3f3f3f 
 #define MAX_SERIALIZER_SIZE 4*1024
-#define MAX_DICT_SIZE 1024
+#define MAX_DICT_SIZE 1024   // 最大字典长度
 
 typedef struct 
 {
@@ -60,5 +60,5 @@ void decompressData(uint8_t *data, uint8_t *result, dict_t *dict);
 void encodeData(uint8_t *data, uint8_t *result, dict_t *dict);
 
 // 哈夫曼编码 @李宾
-void huffmanEncode(uint8_t* data, dict_t* oldDict, uint8_t* result, HuffmanTree* newDict, int* resultBitSize); // 哈夫曼编码调用函数
+void huffmanEncode(uint8_t* data, uint16_t dataLength, uint8_t* result, HuffmanTree* newDict, int* resultBitSize); // 哈夫曼编码调用函数
 #endif
