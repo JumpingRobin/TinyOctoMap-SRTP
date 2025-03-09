@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "crosssystem_tool.h": "c"
+        "crosssystem_tool.h": "c",
+        "randomnum_tool.h": "c"
     }
 }

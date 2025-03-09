@@ -9,7 +9,7 @@
 # include <stdlib.h>
 # include <time.h>
 # include <math.h>
-# define DATA_SIZE 100
+# define DATA_SIZE 10000
 # define WEIGHT_SIZE 256
 
 void generate_input_uniformity(uint8_t* data); // 生成均匀测试数据
