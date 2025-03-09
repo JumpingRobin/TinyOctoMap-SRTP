@@ -6,6 +6,7 @@
             "command": "D:\\C_compiler\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-I", "D:/TinyoctoMap_srtp/TinyOctomap/interface",
+                "D:/TinyoctoMap_srtp/TinyOctomap/src/randomNum_tool.c",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
